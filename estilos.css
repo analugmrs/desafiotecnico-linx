@@ -1,0 +1,43 @@
+html {
+    margin:0 auto;
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    padding: 0;
+    margin:0;
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #888;
+}
+
+header {
+    height:399px;
+    width: 100%;
+    margin-top:-115px;
+    background: #707070 0% 0%;
+    transform: skewY(5deg);
+    z-index: -1;
+    position: absolute;
+}
+
+#header {
+    margin-top:69px;
+    text-align: center;
+    z-index: 4;
+    color:white;
+}
+
+footer {
+    background: #707070;
+    height: 129px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    z-index: 4;
+    position: relative;
+    font-size: 12px;
+    line-height: 25px;
+}
