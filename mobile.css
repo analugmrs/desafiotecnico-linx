@@ -1,0 +1,68 @@
+
+@media only screen and (max-width: 500px) {
+    main {
+        margin: 98px auto;
+        max-width: 420px;
+    }
+    #header {
+        text-align: left;
+        padding: 12px;
+    }
+    .box {
+        width: 385px;
+        float: none;
+        margin: 0 auto;
+    }
+    .box_forms {
+      width: 385px;
+      float: none;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+    .send {
+        width: 390px;
+    }
+    .products {
+        width: 420px;
+    }
+    .product {
+        width: 392px;
+        height: 130px;
+        display: inline-block;   
+    }
+    .p_img{
+        width: 169px;
+        height: 130px;
+        float: left;
+        margin: 0 auto;
+        margin-left: 10px;
+    }
+    .p_descript {
+        width: 200px;
+        height: 130px;
+        float: right;
+        text-align: left;
+        font-size: 12px;
+    }
+    .desc {
+        display: none;
+    }
+    .maisp_btn{
+        margin-top: 38px;
+    }
+    .share {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "title"
+            "name"
+            "email"
+            "btn";
+    }
+    .btn {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        grid-area: btn;
+        text-align: center;
+    }
+}
