@@ -15,18 +15,25 @@ body {
 header {
     height:399px;
     width: 100%;
-    margin-top:-115px;
+    margin-top:-45px;
     background: #707070 0% 0%;
-    transform: skewY(5deg);
+    transform: skewY(4deg);
     z-index: -1;
     position: absolute;
 }
 
 #header {
-    margin-top:69px;
+    margin-top:-29px;
     text-align: center;
     z-index: 4;
     color:white;
+}
+
+#headerfix {
+    background: #707070 0% 0%;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
 }
 
 main {
@@ -127,6 +134,75 @@ label {
     position:relative;
 }
 
+.products {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    top: 130px;
+    margin-bottom: 268px;
+    clear: both;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-column-gap:40px;
+    grid-row-gap:39px;
+}
+
+.product {
+    width: 200px;
+    height: 430px;
+    margin: 10px 15px;
+    display: inline-block;   
+}
+
+.p_img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #707070;
+    margin: 0px 0px 14px 0px;
+}
+.p_descript {
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.p_descript h1 {
+    font-size: 14px;
+}
+
+.p_descript h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: -5px auto;
+}
+
+.p_btn {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #707070;
+    opacity: 1;
+    font-size: 16px;
+    padding-top: 2px;
+    border-radius: 4px;
+    background: white;
+    color: #707070;
+}
+
+.maisp_btn {
+    width: 260px;
+    height: 39px;
+    border: 1px solid #707070;
+    opacity: 1;
+    font-size: 16px;
+    padding-top: 2px;
+    border-radius: 4px;
+    background: white;
+    color: #707070;
+}
+
 .share {
     margin: 0 auto;
     text-align: left;
@@ -156,9 +232,58 @@ label {
     margin-top: -10px;
 }
 
+.section {
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+    top: 20px;
+    z-index: 1;
+    font-weight: bold;
+    color: #888;
+    padding: 0px 10px;
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.name {
+    grid-area: name;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.email {
+    grid-area: email;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.btn {
+    margin-top: 50px;
+    grid-area: btn;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer {
+    background: #707070 0% 0%;
+    transform: skewY(-4deg);
+    height: 179px;
+    margin-bottom:-70px;
+    width: 100%;
+    z-index: -1;
+}
+
 footer {
     background: #707070;
-    height: 129px;
+    height: 149px;
     width: 100%;
     bottom: 0;
     text-align: center;
